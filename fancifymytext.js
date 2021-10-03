@@ -1,4 +1,4 @@
-const b1 = document.getElementById("btn1");
+const b1 = document.querySelector("button");
 
 function giveAlert()
 {
