@@ -8,7 +8,7 @@ function giveAlert()
 
 function changeSize()
 {
-    tb1.style.fontSize = 3.2rem;
+    tb1.style.fontSize = "3.2rem";
 }
 
 b1.addEventListener('click', giveAlert);
