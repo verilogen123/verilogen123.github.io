@@ -12,3 +12,4 @@ function changeSize()
 }
 
 b1.addEventListener('click', giveAlert);
+b1.addEventListener('click', changeSize);
