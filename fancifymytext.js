@@ -11,5 +11,11 @@ function changeSize()
     tb1.style.fontSize = "2em";
 }
 
+function changeStyle()
+{
+    tb1.style.fontWeight = "bold";
+}
+
 b1.addEventListener('click', giveAlert);
 b1.addEventListener('click', changeSize);
+//b1.addEventListener('')
