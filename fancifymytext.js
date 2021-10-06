@@ -15,14 +15,14 @@ function makeTextBig()
 
 function fancifyStyle()
 {
-    textarea1.style.fontWeight = "bolder";
+    textarea1.style.fontWeight = "800";
     textarea1.style.color = "blue";
     textarea1.style.textDecoration = "underline";
 }
 
 function boringStyle()
 {
-    textarea1.style.fontWeight = "normal";
+    textarea1.style.fontWeight = "400";
     textarea1.style.color = "black";
     textarea1.style.textDecoration = "none";
 }
@@ -30,4 +30,5 @@ function boringStyle()
 //button1.addEventListener('click', giveAlert);
 button1.addEventListener('click', makeTextBig);
 fancyRadio.addEventListener('click', fancifyStyle);
+boringRadio.addEventListener('click', boringStyle);
 //button1.addEventListener('')
