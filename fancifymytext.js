@@ -1,12 +1,13 @@
-const button1 = document.getElementById("button1");
+const biggerButton = document.getElementById("biggerButton");
+const uppercaseButton = document.getElementById("uppercaseButton");
 const textarea1 = document.getElementById("textarea1");
 const fancyRadio = document.getElementById("fancyRadio");
 const boringRadio = document.getElementById("boringRadio");
 //const radioGroup1 = document.querySelector("radioGroup1");
 
-function giveAlert()
+function bigAlert()
 {
-    alert("Hello, world!");
+    alert("The text is now bigger.");
 }
 
 function makeTextBig()
@@ -28,8 +29,14 @@ function boringStyle()
     textarea1.style.textDecoration = "none";
 }
 
-button1.addEventListener('click', giveAlert);
-button1.addEventListener('click', makeTextBig);
+function makeTextUpper()
+{
+    textarea1.style.textTransform = "uppercase";
+}
+
+biggerButton.addEventListener('click', bigAlert);
+biggerButton.addEventListener('click', makeTextBig);
+uppercaseButton.addEventListener('click', makeTextUpper);
 //radioGroup1.addEventListener('change', giveAlert);
 fancyRadio.addEventListener('click', fancifyStyle);
 boringRadio.addEventListener('click', boringStyle);

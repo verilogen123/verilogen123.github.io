@@ -1,17 +1,4 @@
-/*
-
-<style>
-    .container-1 div
-    {
-        border: 1px #ccc solid;
-        padding: 10px;
-    }
-</style>
-
-<div class="container-1">
-    <div class="box-1">
-        <h3>hello</h3>
-    </div>
-</div>
-
-*/
+.flexbox-item
+{
+    border: 3px solid #333;
+}
