@@ -1,6 +1,9 @@
-.flexbox-container
+.fancifymytext-page
 {
-   display:flex; 
+   display:flex;
+   flex-direction:column;
+   min-height: 200px;
+   background-color: rgba(39, 43, 39, 0.89);
 }
 
 .flexbox-item
