@@ -1,0 +1,81 @@
+html{
+    background-color: rgba(28, 29, 28, 0.89);
+}
+
+h1{
+    color:rgba(240, 243, 240, 0.986);
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 5px;
+    padding: 0;
+}
+
+li{
+    background-color:rgba(112, 112, 112, 0.932);
+    display:inline;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+a{
+    color: rgba(240, 243, 240, 0.986);
+    text-decoration: none;
+}
+
+fieldset{
+    color: rgba(240, 243, 240, 0.986);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+legend{
+    color:rgba(240, 243, 240, 0.986);
+    text-align: center;
+}
+
+textarea{
+    background-color: white;
+    min-width: 50px;
+    max-width: 425px;
+    border-radius:5px;
+}
+
+.fancifymytext-page{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.middle-content{
+    order: 2;
+    flex: 0 1 30%;
+}
+
+.left-content{
+    order: 1;
+    background-color: rgb(2, 2, 2);
+    flex: 0 1 35%;
+}
+
+.right-content{
+    order: 3;
+    flex: 0 1 35%;
+}
+
+.flexbox-item{
+    flex-basis: content;
+    max-width: 450px;
+    margin: 10px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    background-color: rgba(96, 99, 91, 0.623);
+    
+}

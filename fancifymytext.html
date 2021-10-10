@@ -3,43 +3,78 @@
     <head>
         <meta charset="utf-8">
         <title>Fancify Shamcify</title> 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fancifymytext.css">
     </head>
 
-    <body>
+
+
     <div class="fancifymytext-page">
-      <h1>Fancify my Text</h1>
 
-      <div class="flexbox-item text-area1">
-        <form>
-          <fieldset>
-            <legend>Text</legend>
-            <textarea id="textarea1" rows="4" cols="30" wrap="soft">First Field</textarea>          
-          </fieldset>
-        </form>
-      </div>
+    <header>
+      <nav>
+        <ul class="nav">
+          <li> <a href="index.html">Home</a></li>
+          <li> <a href="fancifymytext.html">Fancify my Text</a> </li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <body>
+
+
+
+      <div class="middle-content">
+        <h1>Fancify my Text</h1>
+
+        <div class="flexbox-item flex-text">
+          <form name="textareaGroup1">
+            <fieldset>
+              <legend>Text</legend>
+              <textarea id="textarea1" rows="4" cols="30" wrap="soft" name="textareaGroup1">First Field</textarea>
+            </fieldset>
+          </form>
+        </div>
       
-    
-      
-      <div class="flexbox-item flexbox-item-2">
-        <form>
-          <fieldset>
-            <legend>Fancify</legend>
+        <div class="flexbox-item flex-fancify">
+          <form>
+            <fieldset>
+              <legend>Fancify</legend>
 
-            <button id="biggerButton" name="buttonGroup1" type="button">Bigger!</button>
+              <button id="biggerButton" name="buttonGroup1" type="button">Bigger!</button>
 
-            <button id="uppercaseButton" name="buttonGroup1" type="button">Moo</button>
+              <button id="mooButton" name="buttonGroup1" type="button">Moo</button>
           
-            <input type="radio" id="fancyRadio" name="radioGroup1">
-            <label for="fancyRadio">FancyShmancy</label>
+              <input type="radio" id="fancyRadio" name="radioGroup1">
+              <label for="fancyRadio">FancyShmancy</label>
 
-            <input type="radio" id="boringRadio" name="radioGroup1">
-            <label for="boringRadio">BoringBetty</label>
-          </fieldset>
-        </form>
+              <input type="radio" id="boringRadio" name="radioGroup1">
+              <label for="boringRadio">BoringBetty</label>
+            </fieldset>
+          </form>
+        </div>
       </div>
 
-      <script src="fancifymytext.js"></script>
+
+
+      <div class="left-content">
+
+      </div>
+
+
+
+
+      <div class="right-content">
+        
+      </div>
+
+
+
+
     </div>
+    
+    <script src="fancifymytext.js"></script>
+    
     </body> 
 </html>
